@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class TestCode {	
+public class ArrayList_LinkedList {	
 	
 	long startTime;
 	long endTime;
@@ -103,10 +103,10 @@ public class TestCode {
 	
 	public static void main(String[] args) {
 		
-		TestCode tc = new TestCode();
+		ArrayList_LinkedList al = new ArrayList_LinkedList();
 		
-		tc.arrayListTest();
-		tc.linkedListTest();
+		al.arrayListTest();
+		al.linkedListTest();
 		
 	}
 	
