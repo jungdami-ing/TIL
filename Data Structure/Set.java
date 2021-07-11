@@ -106,5 +106,4 @@ public class Set {
 		set.LinkedHashSet();
 		set.TreeSet();
 	}
-
 }
