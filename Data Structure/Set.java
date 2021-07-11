@@ -9,7 +9,7 @@ public class Set {
 	int setSize = 10000000;
 	
 	
-	public void HashSet() {
+	public void hashSet() {
 		HashSet<String> hashSet = new HashSet<>();
 		
 		/* 추가 */
@@ -40,7 +40,7 @@ public class Set {
 	}
 	
 	
-	public void LinkedHashSet() {
+	public void linkedHashSet() {
 		LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>();
 		
 		/* 추가 */
@@ -70,7 +70,7 @@ public class Set {
 	}
 	
 	
-	public void TreeSet() {
+	public void treeSet() {
 		TreeSet<String> treeSet = new TreeSet<>();
 		
 		/* 추가 */
@@ -102,8 +102,8 @@ public class Set {
 	public static void main(String[] args) {
 		Set set = new Set();
 		
-		set.HashSet();
-		set.LinkedHashSet();
-		set.TreeSet();
+		set.hashSet();
+		set.linkedHashSet();
+		set.treeSet();
 	}
 }
