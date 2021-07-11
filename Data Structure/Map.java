@@ -9,7 +9,7 @@ public class Map {
 	int mapSize = 1000000;
 	
 	
-	public void HashMap() {
+	public void hashMap() {
 		HashMap<Integer, String> hashMap = new HashMap<>();
 		
 		/* 추가 */
@@ -39,7 +39,7 @@ public class Map {
 		System.out.println("HashMap remove : " + (endTime - startTime) + " ns");
 	}
 	
-	public void LinkedHashMap() {
+	public void linkedHashMap() {
 		LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<>();
 		
 		/* 추가 */
@@ -70,7 +70,7 @@ public class Map {
 		
 	}
 	
-	public void TreeMap() {
+	public void treeMap() {
 		TreeMap<Integer, String> treeMap = new TreeMap<>();
 		
 		/* 추가 */
@@ -105,9 +105,9 @@ public class Map {
 		
 		Map map = new Map();
 		
-		map.HashMap();
-		map.LinkedHashMap();
-		map.TreeMap();
+		map.hashMap();
+		map.linkedHashMap();
+		map.treeMap();
 	}
 
 }
